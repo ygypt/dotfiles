@@ -1,5 +1,5 @@
 #!/bin/sh
 path=$(pwd)
 
-[ ! -d $HOME/.config ] && mkdir $HOME/.config
 ln -sf $path/.config $HOME/.config
+ln -sf $path/.zshenv $HOME/.zshenv
