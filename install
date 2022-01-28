@@ -1,5 +1,7 @@
 #!/bin/sh
 path=$(pwd)
 
+sudo rm $HOME/.zshenv
+sudo rm -rf $HOME/.config
 ln -sf $path/.config $HOME/.config
 ln -sf $path/.zshenv $HOME/.zshenv
