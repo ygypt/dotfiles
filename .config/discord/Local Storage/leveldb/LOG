@@ -1,5 +1,0 @@
-2022/01/25-08:04:45.334 dc9 Creating DB /home/kairo/repos/dotfiles/.config/discord/Local Storage/leveldb since it was missing.
-2022/01/25-08:04:45.379 dc9 Reusing MANIFEST /home/kairo/repos/dotfiles/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2022/01/25-08:06:23.011 dc9 Level-0 table #5: started
-2022/01/25-08:06:23.016 dc9 Level-0 table #5: 157311 bytes OK
-2022/01/25-08:06:23.019 dc9 Delete type=0 #3

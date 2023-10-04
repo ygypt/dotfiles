@@ -1,7 +1,15 @@
 #!/bin/sh
 path=$(pwd)
 
-sudo rm $HOME/.zshenv
-sudo rm -rf $HOME/.config
-ln -sf $path/.config $HOME/.config
-ln -sf $path/.zshenv $HOME/.zshenv
+
+# single files
+sudo rm         $HOME/.zshenv
+ln -sf          $path/.zshenv               $HOME/.zshenv
+
+sudo rm         $HOME/.Xresources
+ln -sf          $path/.Xresources           $HOME/.Xresources
+
+
+# folders
+sudo rm -rf     $HOME/.config
+ln -sf          $path/.config               $HOME/.config
