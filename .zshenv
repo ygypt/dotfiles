@@ -49,4 +49,4 @@ export BROWSER="firefox"
 #export WM="hyprland"
 
 # disable files
-export LESSHISTFILE=-
+#export LESSHISTFILE=-
