@@ -1,4 +1,4 @@
-#files: 815	version: 5.9
+#files: 810	version: 5.9
 
 _comps=(
 '-' '_precommand'
@@ -262,7 +262,6 @@ _comps=(
 'dmidecode' '_dmidecode'
 'doas' '_doas'
 'docker' '_docker'
-'dolphin' '_dolphin'
 'domainname' '_yp'
 'dos2unix' '_dos2unix'
 'drill' '_drill'
@@ -726,8 +725,6 @@ _comps=(
 'make' '_make'
 'makeinfo' '_texinfo'
 'makepkg' '_pacman'
-'mako' '_mako'
-'makoctl' '_makoctl'
 'man' '_man'
 'manage.py' '_django'
 'manila' '_openstack'
@@ -892,6 +889,7 @@ _comps=(
 '-parameter-' '_parameter'
 'parec' '_pulseaudio'
 'parecord' '_pulseaudio'
+'paru' '_paru'
 'passwd' '_users'
 'paste' '_paste'
 'pasuspender' '_pulseaudio'
@@ -1432,7 +1430,6 @@ _comps=(
 'wl-paste' '_wl-paste'
 'wodim' '_cdrecord'
 'wpa_cli' '_wpa_cli'
-'wpctl' '_wpctl'
 'write' '_users_on'
 'www' '_webbrowser'
 'xargs' '_xargs'
@@ -1490,7 +1487,6 @@ _comps=(
 'xzcat' '_xz'
 'yafc' '_yafc'
 'yash' '_sh'
-'yay' '_yay'
 'ypbind' '_yp'
 'ypcat' '_yp'
 'ypmatch' '_yp'
@@ -1503,7 +1499,6 @@ _comps=(
 'ypxfr' '_yp'
 'ytalk' '_other_accounts'
 'zargs' '_zargs'
-'zathura' '_zathura'
 'zcalc' '_zcalc'
 '-zcalc-line-' '_zcalc_line'
 'zcat' '_zcat'
@@ -1665,15 +1660,14 @@ bindkey '^[/' _history-complete-older
 bindkey '^[~' _bash_complete-word
 
 autoload -Uz _bluetoothctl _bootctl _busctl _bwrap _cargo \
-            _coredumpctl _curl _docker _dolphin _flatpak \
-            _gh _hostnamectl _journalctl _kernel-install _libinput \
-            _localectl _loginctl _machinectl _mako _makoctl \
-            _mkinitcpio _networkctl _oomctl _pacman _playerctl \
-            _pulseaudio _resolvectl _rg _rustup _sd_hosts_or_user_at_host \
-            _sd_machines _sd_outputmodes _sd_unit_files _systemctl _systemd \
-            _systemd-analyze _systemd-delta _systemd-inhibit _systemd-nspawn _systemd-path \
-            _systemd-run _systemd-tmpfiles _timedatectl _udevadm _udisks2 \
-            _wl-copy _wl-paste _wpctl _yay _zathura \
+            _coredumpctl _curl _docker _flatpak _gh \
+            _hostnamectl _journalctl _kernel-install _libinput _localectl \
+            _loginctl _machinectl _mkinitcpio _networkctl _oomctl \
+            _pacman _paru _playerctl _pulseaudio _resolvectl \
+            _rg _rustup _sd_hosts_or_user_at_host _sd_machines _sd_outputmodes \
+            _sd_unit_files _systemctl _systemd _systemd-analyze _systemd-delta \
+            _systemd-inhibit _systemd-nspawn _systemd-path _systemd-run _systemd-tmpfiles \
+            _timedatectl _udevadm _udisks2 _wl-copy _wl-paste \
             _cdr _all_labels _all_matches _alternative _approximate \
             _arg_compile _arguments _bash_completions _cache_invalid _call_function \
             _combination _complete _complete_debug _complete_help _complete_help_generic \
@@ -1832,5 +1826,5 @@ autoload -Uz +X _call_program
 typeset -gUa _comp_assocs
 _comp_assocs=( '' )
 
-#omz revision: e11d81303753b0fefbc50ce10ec4612c7ff33e84
+#omz revision: 772b41ea5a362206e1498453dd053e638752c5dc
 #omz fpath: /home/kairo/.config/zsh/.oh-my-zsh/plugins/git /home/kairo/.config/zsh/.oh-my-zsh/functions /home/kairo/.config/zsh/.oh-my-zsh/completions /home/kairo/.config/zsh/.oh-my-zsh/cache/completions /usr/local/share/zsh/site-functions /usr/share/zsh/site-functions /usr/share/zsh/functions/Calendar /usr/share/zsh/functions/Chpwd /usr/share/zsh/functions/Completion /usr/share/zsh/functions/Completion/Base /usr/share/zsh/functions/Completion/Linux /usr/share/zsh/functions/Completion/Unix /usr/share/zsh/functions/Completion/X /usr/share/zsh/functions/Completion/Zsh /usr/share/zsh/functions/Exceptions /usr/share/zsh/functions/MIME /usr/share/zsh/functions/Math /usr/share/zsh/functions/Misc /usr/share/zsh/functions/Newuser /usr/share/zsh/functions/Prompts /usr/share/zsh/functions/TCP /usr/share/zsh/functions/VCS_Info /usr/share/zsh/functions/VCS_Info/Backends /usr/share/zsh/functions/Zftp /usr/share/zsh/functions/Zle

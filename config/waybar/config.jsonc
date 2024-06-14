@@ -106,16 +106,16 @@
             "warning": 30,
             "critical": 15
         },
-        "format": "{icon} {capacity}%",
-        "format-charging": "{icon}󱐋 {capacity}%",
-        "format-plugged": "{icon} {capacity}%",
+        "format": "{icon}  {capacity}%",
+        "format-charging": "{icon}󱐋  {capacity}%",
+        "format-plugged": "{icon}  {capacity}%",
         "format-alt": "{icon} {time}",
         "format-icons": [" ", " ", " ", " ", " "]
     },
 
     "network": {
         "format": "", 
-        "format-wifi": " {essid}",
+        "format-wifi": "   {essid}",
         "format-disconnected": "No Network ⚠ ",
         "tooltip-format": "Signal Strength: ({signalStrength}%)",
         "on-click": "kitty --class nmtui nmtui"
@@ -123,10 +123,10 @@
 
     "wireplumber": {
         "format": "{icon} {volume}%",
-        "format-muted": "",
+        //"format-muted": "  ",
         "on-click": "helvum",
         "max-volume": 150,
         "scroll-step": 0.2,
-        "format-icons": ["", "", ""]
+        "format-icons": [" ", " ", " "]
     }
 }
